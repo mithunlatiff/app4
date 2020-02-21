@@ -12,9 +12,9 @@ var schema = require('./schema');
 var mysql = require('mysql'),
     connection = require('express-myconnection'),
     config = {
-      host: 'localhost',
+      host: 'mysql01.project104.svc.cluster.local',
       user: 'root',
-      password: '',
+      password: 'mcmcmc',
       port: 3306,
       database: 'nodejs'
     };
